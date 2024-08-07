@@ -9,6 +9,8 @@ composer install
 npm install
 
 # step 3
+<!-- copy .env.example to .env
+change your db name and password in .env file -->
 php artisan migrate
 
 # step 4
