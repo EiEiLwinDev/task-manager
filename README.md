@@ -59,21 +59,28 @@ git clone https://github.com/EiEiLwinDev/task-manager.git
 cd task-manager
 composer install
 npm install
-npm run build
 
 # step 9
-wirte config for apache or nginx ( depend on you installed above )
+<!-- copy .env.example to .env
+change your db name and password in .env file -->
+php artisan migrate
 
 # step 10
-connect with your domain ( if domain doesn't exit , create domain first) 
+npm run build
 
 # step 11
-install ssh
+wirte config for apache or nginx ( depend on you installed above )
 
 # step 12
-restart server
+connect with your domain ( if domain doesn't exit , create domain first) 
 
 # step 13
-accept from browser
+install ssh
+
+# step 14
+restart server
+
+# step 15
+accept from browser via your domain
 
 
