@@ -1,13 +1,19 @@
 Run on development environment
 --------------------------------
 # step1
- composer install
+git clone https://github.com/EiEiLwinDev/task-manager.git
+
 # step 2
+cd /task-manager
+composer install
 npm install
+
 # step 3
 php artisan migrate
+
 # step 4
 php artisan serve
+
 # step 5
 npm run dev
 
@@ -47,7 +53,7 @@ install mysql
 # step 8
 place your project under www folder
 cd /www
-git clone http:git.com/EiEiLwinDev/task-manager.git
+git clone https://github.com/EiEiLwinDev/task-manager.git
 cd task-manager
 composer install
 npm install
